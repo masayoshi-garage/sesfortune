@@ -3,7 +3,7 @@ import datetime
 import time
 import urllib.parse
 
-siteUrl = "http://localhost.invalid/foo/bar/baz";
+siteUrl = "https://sesfortune-u6ogjxviqbehow8t9ywv6b.streamlit.app/";
 
 def pick_line_with_hash(file_path: str,userName: str):
     dt_now = datetime.datetime.now()
