@@ -46,7 +46,7 @@ if handleName := st.text_input("あなたの名前を入力してください"):
 
         #tweet用テキスト
         tweet_text = f"""#SES占い
-handleName さんが次にやる案件は?
+{handleName} さんが次にやる案件は?
 💼案件: {nextjob}
 👨‍💼指揮命令者: {reader}
 """
