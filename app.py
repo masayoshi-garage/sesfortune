@@ -21,6 +21,12 @@ def pick_line_with_hash(file_path: str,userName: str):
     return lines[index]
 
 st.header("SES fortune",divider='red')
+with st.expander("注意・免責事項",icon="⚠️"):
+    st.write("""
+        当ページはジョークを目的としており、正確性や完全性を保証するものではありません。
+        ご利用によって生じたいかなる損害・不利益についても、開発者は一切責任を負いません。
+        ご理解のうえ、お楽しみください。
+    """)
 
 if handleName := st.text_input("あなたの名前を入力してください"):
     if st.button("占う"):
